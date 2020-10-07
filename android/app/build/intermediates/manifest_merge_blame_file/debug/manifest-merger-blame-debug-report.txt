@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zibamobile"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\Killer_Work\trial\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\Killer_Work\trial\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:3:5-66
+12-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:4:5-78
+13-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:4:22-76
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:5:5-79
+14-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:5:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:6:5-80
+15-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:6:22-78
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:7:5-64
+16-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:7:22-62
+17    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+17-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:8:5-97
+17-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:8:22-95
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:9:5-65
+18-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:9:22-63
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:10:5-81
+19-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:10:22-79
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:11:5-67
+20-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:11:22-65
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:12:5-70
+21-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:12:22-68
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:13:5-78
+22-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:13:22-76
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->[com.facebook.flipper:flipper:0.54.0] C:\Users\RSI\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:16:5-76
+23-->[com.facebook.flipper:flipper:0.54.0] C:\Users\RSI\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:16:22-73
+24
+25    <application
+25-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:14:5-22:19
+26        android:name="com.zibamobile.MainApplication"
+26-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:14:18-49
+27        android:allowBackup="false"
+27-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:14:164-191
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] C:\Users\RSI\.gradle\caches\transforms-2\files-2.1\639e914bfc1efa21e36199d3ff2c5eef\core-1.1.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:14:83-117
+31        android:label="@string/app_name"
+31-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:14:50-82
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:14:118-163
+33        android:theme="@style/AppTheme"
+33-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:14:192-223
+34        android:usesCleartextTraffic="true" >
+34-->D:\Killer_Work\trial\android\app\src\debug\AndroidManifest.xml:7:18-53
+35        <activity
+35-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:15:9-20:20
+36            android:name="com.zibamobile.MainActivity"
+36-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:15:19-47
+37            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+37-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:15:81-158
+38            android:label="@string/app_name"
+38-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:15:48-80
+39            android:launchMode="singleTask"
+39-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:15:159-190
+40            android:windowSoftInputMode="adjustResize" >
+40-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:15:191-233
+41            <intent-filter>
+41-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:16:13-19:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:17:17-68
+42-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:17:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:18:17-76
+44-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:18:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+47-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:21:9-85
+47-->D:\Killer_Work\trial\android\app\src\main\AndroidManifest.xml:21:19-83
+48
+49        <provider
+49-->[:react-native-image-picker] D:\Killer_Work\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-18:20
+50            android:name="com.imagepicker.FileProvider"
+50-->[:react-native-image-picker] D:\Killer_Work\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-56
+51            android:authorities="com.zibamobile.provider"
+51-->[:react-native-image-picker] D:\Killer_Work\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-60
+52            android:exported="false"
+52-->[:react-native-image-picker] D:\Killer_Work\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+53            android:grantUriPermissions="true" >
+53-->[:react-native-image-picker] D:\Killer_Work\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-47
+54            <meta-data
+54-->[:react-native-image-picker] D:\Killer_Work\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:58
+55                android:name="android.support.FILE_PROVIDER_PATHS"
+55-->[:react-native-image-picker] D:\Killer_Work\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
+56                android:resource="@xml/provider_paths" />
+56-->[:react-native-image-picker] D:\Killer_Work\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-55
+57        </provider>
+58    </application>
+59
+60</manifest>
